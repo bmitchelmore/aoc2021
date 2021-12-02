@@ -11,6 +11,7 @@
 		7528F316275835DA00B32CD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F315275835DA00B32CD0 /* ContentView.swift */; };
 		7528F318275835DA00B32CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7528F317275835DA00B32CD0 /* Assets.xcassets */; };
 		7528F31B275835DA00B32CD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7528F31A275835DA00B32CD0 /* Preview Assets.xcassets */; };
+		7528F3232758363C00B32CD0 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F3222758363C00B32CD0 /* Day1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		7528F317275835DA00B32CD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7528F31A275835DA00B32CD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7528F31C275835DA00B32CD0 /* AOC2021.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AOC2021.entitlements; sourceTree = "<group>"; };
+		7528F3222758363C00B32CD0 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7528F317275835DA00B32CD0 /* Assets.xcassets */,
 				7528F31C275835DA00B32CD0 /* AOC2021.entitlements */,
 				7528F319275835DA00B32CD0 /* Preview Content */,
+				7528F3222758363C00B32CD0 /* Day1.swift */,
 			);
 			path = AOC2021;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				7528F316275835DA00B32CD0 /* ContentView.swift in Sources */,
 				7528F314275835DA00B32CD0 /* AOC2021App.swift in Sources */,
+				7528F3232758363C00B32CD0 /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
