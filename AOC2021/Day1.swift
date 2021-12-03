@@ -42,30 +42,31 @@ private func parse(input: String) throws -> [Int] {
         }
 }
 
-struct Day1Puzzle1 {
+struct Day1Puzzle1: Puzzle {
     private let input: [Int]
     
     init(contents: String) throws {
         input = try parse(input: contents)
     }
     
-    func answer() -> Int {
+    func answer() -> String {
         return input
             .pairs
             .map { $0.1 - $0.0 }
             .filter { $0 > 0 }
             .count
+            .description
     }
 }
 
-struct Day1Puzzle2 {
+struct Day1Puzzle2: Puzzle {
     private let input: [Int]
     
     init(contents: String) throws {
         input = try parse(input: contents)
     }
     
-    func answer() -> Int {
+    func answer() -> String {
         return input
             .triples
             .map { $0.0 + $0.1 + $0.2 }
@@ -73,5 +74,6 @@ struct Day1Puzzle2 {
             .map { $0.1 - $0.0 }
             .filter { $0 > 0 }
             .count
+            .description
     }
 }
