@@ -6,30 +6,7 @@
 //
 
 import Foundation
-
-enum AOCError: Error {
-    case invalidInput
-}
-
-extension Collection {
-    var pairs: [(Element, Element)] {
-        return Array(zip(self, self.dropFirst()))
-    }
-    var triples: [(Element, Element, Element)] {
-        guard count > 2 else { return [] }
-        var triples: [(Element, Element, Element)] = []
-        var a = Array(self)
-        var b = Array(self.dropFirst())
-        var c = Array(self.dropFirst(2))
-        while !a.isEmpty, !b.isEmpty, !c.isEmpty {
-            triples.append((a.first!, b.first!, c.first!))
-            a.removeFirst()
-            b.removeFirst()
-            c.removeFirst()
-        }
-        return triples
-    }
-}
+import Algorithms
 
 private func parse(input: String) throws -> [Int] {
     return try input
@@ -51,7 +28,7 @@ struct Day1Puzzle1: Puzzle {
     
     func answer() -> String {
         return input
-            .pairs
+            .adjacentPairs()
             .map { $0.1 - $0.0 }
             .filter { $0 > 0 }
             .count
@@ -68,9 +45,9 @@ struct Day1Puzzle2: Puzzle {
     
     func answer() -> String {
         return input
-            .triples
-            .map { $0.0 + $0.1 + $0.2 }
-            .pairs
+            .windows(ofCount: 3)
+            .map { $0.reduce(0, +) }
+            .adjacentPairs()
             .map { $0.1 - $0.0 }
             .filter { $0 > 0 }
             .count

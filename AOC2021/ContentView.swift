@@ -20,7 +20,7 @@ struct PromptSheet: View {
     }
 }
 
-enum Puzzles {
+enum Puzzles: String, CaseIterable {
     case Day1Puzzle1
     case Day1Puzzle2
     case Day2Puzzle1
@@ -39,21 +39,27 @@ enum Puzzles {
         }
     }
     
+    static var all: [[Puzzles]] {
+        let dict = Dictionary(grouping: allCases) { $0.section }
+        return dict
+            .map { ($0.key, $0.value) }
+            .sorted { $0.0 < $1.0 }
+            .map { $0.1 }
+    }
+    
     var section: String {
-        switch self {
-        case .Day1Puzzle1, .Day1Puzzle2:
-            return "Day 1"
-        case .Day2Puzzle1, .Day2Puzzle2:
-            return "Day 2"
-        }
+        guard let day = Int(rawValue.dropLast(1).dropFirst(3).trimmingCharacters(in: .decimalDigits.inverted), radix: 10) else { fatalError("Unknown Day: \(self)") }
+        return "Day \(day)"
     }
     
     var title: String {
-        switch self {
-        case .Day1Puzzle1, .Day2Puzzle1:
+        switch rawValue.last {
+        case "1":
             return "Puzzle 1"
-        case .Day1Puzzle2, .Day2Puzzle2:
+        case "2":
             return "Puzzle 2"
+        default:
+            fatalError("Unknown Puzzle: \(self)")
         }
     }
     
@@ -79,13 +85,8 @@ struct ContentView: View {
         }
     }
     
-    var items: [[Puzzles]] = [
-        [.Day1Puzzle1, .Day1Puzzle2],
-        [.Day2Puzzle1, .Day2Puzzle2]
-    ]
-    
     var body: some View {
-        List(items, id: \.self) { item in
+        List(Puzzles.all, id: \.self) { item in
             Section(item.first!.section) {
                 ForEach(item, id: \.self) { item in
                     Text(item.title)

@@ -14,6 +14,8 @@
 		7528F3232758363C00B32CD0 /* Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F3222758363C00B32CD0 /* Day1.swift */; };
 		7528F3272759C32200B32CD0 /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F3262759C32200B32CD0 /* Puzzle.swift */; };
 		7528F3292759C4A400B32CD0 /* Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F3282759C4A400B32CD0 /* Day2.swift */; };
+		7528F32C275ACAC700B32CD0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 7528F32B275ACAC700B32CD0 /* Algorithms */; };
+		7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F32D275ACB2600B32CD0 /* AOCError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		7528F3222758363C00B32CD0 /* Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1.swift; sourceTree = "<group>"; };
 		7528F3262759C32200B32CD0 /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
 		7528F3282759C4A400B32CD0 /* Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2.swift; sourceTree = "<group>"; };
+		7528F32D275ACB2600B32CD0 /* AOCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOCError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7528F32C275ACAC700B32CD0 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +70,7 @@
 				7528F3262759C32200B32CD0 /* Puzzle.swift */,
 				7528F3222758363C00B32CD0 /* Day1.swift */,
 				7528F3282759C4A400B32CD0 /* Day2.swift */,
+				7528F32D275ACB2600B32CD0 /* AOCError.swift */,
 			);
 			path = AOC2021;
 			sourceTree = "<group>";
@@ -94,6 +99,9 @@
 			dependencies = (
 			);
 			name = AOC2021;
+			packageProductDependencies = (
+				7528F32B275ACAC700B32CD0 /* Algorithms */,
+			);
 			productName = AOC2021;
 			productReference = 7528F310275835DA00B32CD0 /* AOC2021.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 7528F307275835DA00B32CD0;
+			packageReferences = (
+				7528F32A275ACAC700B32CD0 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 7528F311275835DA00B32CD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -152,6 +163,7 @@
 				7528F3292759C4A400B32CD0 /* Day2.swift in Sources */,
 				7528F314275835DA00B32CD0 /* AOC2021App.swift in Sources */,
 				7528F3272759C32200B32CD0 /* Puzzle.swift in Sources */,
+				7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */,
 				7528F3232758363C00B32CD0 /* Day1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +362,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7528F32A275ACAC700B32CD0 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7528F32B275ACAC700B32CD0 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7528F32A275ACAC700B32CD0 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7528F308275835DA00B32CD0 /* Project object */;
 }
