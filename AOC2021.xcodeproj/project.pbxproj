@@ -18,6 +18,7 @@
 		7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F32D275ACB2600B32CD0 /* AOCError.swift */; };
 		7528F330275C3FA800B32CD0 /* Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F32F275C3FA800B32CD0 /* Day3.swift */; };
 		7528F332275C4C8100B32CD0 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F331275C4C8100B32CD0 /* Day4.swift */; };
+		7528F334275C990400B32CD0 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F333275C990400B32CD0 /* Day5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7528F32D275ACB2600B32CD0 /* AOCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOCError.swift; sourceTree = "<group>"; };
 		7528F32F275C3FA800B32CD0 /* Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3.swift; sourceTree = "<group>"; };
 		7528F331275C4C8100B32CD0 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
+		7528F333275C990400B32CD0 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				7528F3282759C4A400B32CD0 /* Day2.swift */,
 				7528F32F275C3FA800B32CD0 /* Day3.swift */,
 				7528F331275C4C8100B32CD0 /* Day4.swift */,
+				7528F333275C990400B32CD0 /* Day5.swift */,
 				7528F32D275ACB2600B32CD0 /* AOCError.swift */,
 			);
 			path = AOC2021;
@@ -172,6 +175,7 @@
 				7528F3272759C32200B32CD0 /* Puzzle.swift in Sources */,
 				7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */,
 				7528F3232758363C00B32CD0 /* Day1.swift in Sources */,
+				7528F334275C990400B32CD0 /* Day5.swift in Sources */,
 				7528F332275C4C8100B32CD0 /* Day4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
