@@ -9,5 +9,5 @@ import Foundation
 
 protocol Puzzle {
     init(contents: String) throws
-    func answer() -> String
+    func answer() throws -> String
 }

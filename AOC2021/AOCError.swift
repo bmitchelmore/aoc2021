@@ -9,4 +9,5 @@ import Foundation
 
 enum AOCError: Error {
     case invalidInput
+    case unknownAnswer
 }
