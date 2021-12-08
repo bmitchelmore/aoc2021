@@ -20,6 +20,7 @@
 		7528F332275C4C8100B32CD0 /* Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F331275C4C8100B32CD0 /* Day4.swift */; };
 		7528F334275C990400B32CD0 /* Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F333275C990400B32CD0 /* Day5.swift */; };
 		7528F336275DD69000B32CD0 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F335275DD69000B32CD0 /* Day6.swift */; };
+		7528F33827608AF700B32CD0 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F33727608AF700B32CD0 /* Day7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7528F331275C4C8100B32CD0 /* Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4.swift; sourceTree = "<group>"; };
 		7528F333275C990400B32CD0 /* Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day5.swift; sourceTree = "<group>"; };
 		7528F335275DD69000B32CD0 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
+		7528F33727608AF700B32CD0 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				7528F331275C4C8100B32CD0 /* Day4.swift */,
 				7528F333275C990400B32CD0 /* Day5.swift */,
 				7528F335275DD69000B32CD0 /* Day6.swift */,
+				7528F33727608AF700B32CD0 /* Day7.swift */,
 				7528F32D275ACB2600B32CD0 /* AOCError.swift */,
 			);
 			path = AOC2021;
@@ -175,6 +178,7 @@
 				7528F336275DD69000B32CD0 /* Day6.swift in Sources */,
 				7528F316275835DA00B32CD0 /* ContentView.swift in Sources */,
 				7528F3292759C4A400B32CD0 /* Day2.swift in Sources */,
+				7528F33827608AF700B32CD0 /* Day7.swift in Sources */,
 				7528F314275835DA00B32CD0 /* AOC2021App.swift in Sources */,
 				7528F3272759C32200B32CD0 /* Puzzle.swift in Sources */,
 				7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */,
