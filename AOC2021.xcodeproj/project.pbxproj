@@ -22,6 +22,7 @@
 		7528F336275DD69000B32CD0 /* Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F335275DD69000B32CD0 /* Day6.swift */; };
 		7528F33827608AF700B32CD0 /* Day7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F33727608AF700B32CD0 /* Day7.swift */; };
 		7528F33A276141A000B32CD0 /* Day8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F339276141A000B32CD0 /* Day8.swift */; };
+		7528F33C2761EDAD00B32CD0 /* Day9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7528F33B2761EDAD00B32CD0 /* Day9.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		7528F335275DD69000B32CD0 /* Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day6.swift; sourceTree = "<group>"; };
 		7528F33727608AF700B32CD0 /* Day7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day7.swift; sourceTree = "<group>"; };
 		7528F339276141A000B32CD0 /* Day8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8.swift; sourceTree = "<group>"; };
+		7528F33B2761EDAD00B32CD0 /* Day9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				7528F335275DD69000B32CD0 /* Day6.swift */,
 				7528F33727608AF700B32CD0 /* Day7.swift */,
 				7528F339276141A000B32CD0 /* Day8.swift */,
+				7528F33B2761EDAD00B32CD0 /* Day9.swift */,
 				7528F32D275ACB2600B32CD0 /* AOCError.swift */,
 			);
 			path = AOC2021;
@@ -186,6 +189,7 @@
 				7528F3272759C32200B32CD0 /* Puzzle.swift in Sources */,
 				7528F33A276141A000B32CD0 /* Day8.swift in Sources */,
 				7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */,
+				7528F33C2761EDAD00B32CD0 /* Day9.swift in Sources */,
 				7528F3232758363C00B32CD0 /* Day1.swift in Sources */,
 				7528F334275C990400B32CD0 /* Day5.swift in Sources */,
 				7528F332275C4C8100B32CD0 /* Day4.swift in Sources */,
