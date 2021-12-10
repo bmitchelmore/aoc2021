@@ -39,6 +39,8 @@ enum Puzzles: String, CaseIterable {
     case Day8Puzzle2
     case Day9Puzzle1
     case Day9Puzzle2
+    case Day10Puzzle1
+    case Day10Puzzle2
     
     func puzzle(input: String) throws -> Puzzle {
         switch self {
@@ -78,6 +80,10 @@ enum Puzzles: String, CaseIterable {
             return try AOC2021.Day9Puzzle1(contents: input)
         case .Day9Puzzle2:
             return try AOC2021.Day9Puzzle2(contents: input)
+        case .Day10Puzzle1:
+            return try AOC2021.Day10Puzzle1(contents: input)
+        case .Day10Puzzle2:
+            return try AOC2021.Day10Puzzle2(contents: input)
         }
     }
     
@@ -85,7 +91,7 @@ enum Puzzles: String, CaseIterable {
         let dict = Dictionary(grouping: allCases) { $0.section }
         return dict
             .map { ($0.key, $0.value) }
-            .sorted { $0.0 < $1.0 }
+            .sorted { $0.0.compare($1.0, options: .numeric, range: nil, locale: nil) == .orderedAscending }
             .map { $0.1 }
     }
     
