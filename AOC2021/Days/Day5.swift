@@ -7,13 +7,8 @@
 
 import Foundation
 
-extension Collection where Element: Hashable {
-    var set: Set<Element> {
-        return Set(self)
-    }
-}
 
-struct LineSpace {
+private struct LineSpace {
     private var cells: [Position:Int] = [:]
     
     mutating func add(_ line: Line) {
@@ -33,12 +28,12 @@ struct LineSpace {
     }
 }
 
-struct Position: Hashable {
+private struct Position: Hashable {
     var x: Int
     var y: Int
 }
 
-struct Line {
+private struct Line {
     var start: Position
     var end: Position
     
