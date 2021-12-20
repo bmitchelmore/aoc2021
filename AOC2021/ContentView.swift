@@ -57,6 +57,8 @@ enum Puzzles: String, CaseIterable {
     case Day17Puzzle2
     case Day18Puzzle1
     case Day18Puzzle2
+    case Day19Puzzle1
+    case Day19Puzzle2
     
     func puzzle(input: String) throws -> Puzzle {
         switch self {
@@ -132,6 +134,10 @@ enum Puzzles: String, CaseIterable {
             return try AOC2021.Day18Puzzle1(contents: input)
         case .Day18Puzzle2:
             return try AOC2021.Day18Puzzle2(contents: input)
+        case .Day19Puzzle1:
+            return try AOC2021.Day19Puzzle1(contents: input)
+        case .Day19Puzzle2:
+            return try AOC2021.Day19Puzzle2(contents: input)
         }
     }
     
