@@ -34,6 +34,7 @@
 		754BB7C8276C580B00AD5D08 /* Day17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB7C7276C580B00AD5D08 /* Day17.swift */; };
 		754BB7CA276DA90D00AD5D08 /* Day18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB7C9276DA90D00AD5D08 /* Day18.swift */; };
 		754BB7CC276EF92400AD5D08 /* Day19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB7CB276EF92400AD5D08 /* Day19.swift */; };
+		754BB7CE2770F1DC00AD5D08 /* Day20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754BB7CD2770F1DC00AD5D08 /* Day20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		754BB7C7276C580B00AD5D08 /* Day17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day17.swift; sourceTree = "<group>"; };
 		754BB7C9276DA90D00AD5D08 /* Day18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18.swift; sourceTree = "<group>"; };
 		754BB7CB276EF92400AD5D08 /* Day19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19.swift; sourceTree = "<group>"; };
+		754BB7CD2770F1DC00AD5D08 /* Day20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				754BB7C7276C580B00AD5D08 /* Day17.swift */,
 				754BB7C9276DA90D00AD5D08 /* Day18.swift */,
 				754BB7CB276EF92400AD5D08 /* Day19.swift */,
+				754BB7CD2770F1DC00AD5D08 /* Day20.swift */,
 			);
 			path = Days;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				7528F33A276141A000B32CD0 /* Day8.swift in Sources */,
 				7528F32E275ACB2600B32CD0 /* AOCError.swift in Sources */,
 				7528F344276473A700B32CD0 /* SetHelpers.swift in Sources */,
+				754BB7CE2770F1DC00AD5D08 /* Day20.swift in Sources */,
 				7528F33C2761EDAD00B32CD0 /* Day9.swift in Sources */,
 				7528F341276472E500B32CD0 /* Day11.swift in Sources */,
 				754BB7C6276AFFBA00AD5D08 /* Day16.swift in Sources */,
